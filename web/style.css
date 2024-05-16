@@ -1,0 +1,270 @@
+.logo 
+{
+     height: 70px; /*logonun yüksekliğini belirleme*/
+}
+.ayrac
+{
+    font-size: 20px; /*ayracın font büyüklüğü*/
+    margin: 0px 10px; /*ayracın font büyüklüğü*/
+    color: #505760; /*ayracın mesafesini ayarlama*/
+} 
+.nav-bg
+{
+    background-color: rgba(23, 42, 78, 0.363); /*navbar ımın arka planı*/
+} 
+.header-yukseklik
+{
+    height: calc(50vh - 90px);
+    width: 30%;
+}
+.sayfa-basligi h3
+{
+    color: rgb(137, 122, 150);
+    font-weight: bold;
+}
+.ust-kisim 
+{
+    background-image: url(pictures/resimler/❄background.jpg); /*sitemin anasayfasınıın arka plan fotoğrafı*/
+    height: 100vh; /*sitemin anasayfasının arka plan fotoğrafının anasayfada kaplayacağı yükseklik*/
+    width: 100%; /*sitemin anasayfasının arka plan fotoğrafının enişlik olarak %100 doldurması*/
+    background-size: cover; /*resmin tam olarak coverlaması için(sığması)*/
+    background-position: center center; /*resmi tam ortalama*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} 
+.ust-kisim-sayfalar
+{
+    background-image: url(pictures/resimler/Frozen.jpg); /*navbar elemanlarının sayfalarının üst arka plan fotoğrafı*/
+    height: 50vh; /*navbar elemanlarının sayfalarının üst arka plan fotoğrafının sayfada kaplayacağı yükseklik*/
+    width: 100%; /*sitemin anasayfasının arka plan fotoğrafının enişlik olarak %100 doldurması*/
+    background-size: cover; /*resmin tam olarak coverlaması için(sığması)*/
+    background-position: center center; /*resmi tam ortalama*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} 
+.nav-item a
+{
+color: #fff; /*navbarımdaki elemanlarımın rengi*/
+font-size: 17px; /*navbarımdaki elemanların boyutu*/
+font-weight: bold; /*navbarımdaki elemanlar kalın yazılı olsun*/
+} 
+.nav-item a:hover
+{
+    color:rgb(137, 122, 150); /*navbarımdaki elemanların üstüne mause gelince bu renk görünsünler*/
+}
+.navbar-toggler-icon
+{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    
+} 
+@media screen and (max-width: 992px) 
+{
+    .ayrac
+    {
+      display: none; /*ekran 992px ve daha küçük bir boyutta olunca sıralanan elemanlarımda ayraç gösterme*/
+    } 
+    .nav-item:hover
+    {
+        background-color: rgb(68, 135, 157); /*ekran 992px ve daha küçük bir boyutta olunca sıralanan elemanlarımın üstüne mause gelince arka plan bu renk olsun*/
+    }
+} 
+.ana-sayf-logo 
+{
+  height: 200px; 
+  width: 30%;
+}
+.bosluk /*ana ekrandaki yazıyı ve logoyu ortalayacağız(aşağı çekicez)bununla çünkü mt yetmiyo */
+{
+ margin-top: 100px;
+}
+.ana-yazi
+{
+    color:rgb(137, 122, 150);
+}  
+
+/*footer kısmı*/ 
+
+.footer
+{
+    background-color: rgb(24, 40, 62);
+    height: 300px;
+    color: honeydew;
+} 
+.footer p
+{
+    font-size: 18px;
+}
+.sutun-footer
+{
+    height: 300px; 
+} 
+.fotgrf 
+{
+    height: 150px;
+    width: 250px;
+} 
+.border-sekil
+{
+    height: 20px;
+}
+.border-stil-ing
+{
+    background-color: rgb(35, 90, 138);
+    height: 100%;
+    width: 75%;
+}
+.border-stil-turk
+{
+    background-color: rgb(35, 90, 138);
+    height: 100%;
+    width: 100%;
+} 
+.border-stil-alm
+{
+    background-color: rgb(35, 90, 138);
+    height: 100%;
+    width: 20%;
+}
+.carousel-item 
+{
+    height: 32rem;
+}
+.slider
+{
+    height: 500px;
+   
+}
+li::marker {
+    color: rgb(35, 90, 138);
+  }
+.yazi-renk
+{
+    color: rgb(35, 90, 138);
+} 
+.wrapper
+{
+    margin: 150px auto;
+    width: 70%;
+}
+.miras-img
+{
+    max-width: 320px;
+    float: right;
+    border: 5px solid black; 
+    border-radius: 10px; 
+    margin-left: 15px;
+}
+.text-box p
+{
+    font-size: 16px;
+} 
+.border 
+{
+    border: 5px solid rgb(194, 130, 52); 
+    border-radius: 10px; 
+    margin-left: 15px;
+}
+.kubbe
+{
+    width: 400px;
+    height: 600px;
+}
+.syf-ayar 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} 
+.ileti-ayar
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+.iletisim h2
+{
+   font-size: 40px;
+   text-align: center;
+   margin-bottom: 10px;
+}
+.iletisim form 
+{
+    width: 600px;
+    text-align: center;
+}
+form .input-box
+{
+    display: flex;
+    justify-content: space-between;
+}
+.input-box .input-field
+{
+    width: 48,5%;
+}
+.field .item
+{
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid #74b4d4c6;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: rgb(20, 43, 218);
+    margin: 12px 0;
+} 
+.field.error .item
+{
+  border-color: crimson;
+}
+.field .item::placeholder
+{
+    color: rgb(215, 123, 24);
+}
+.field .error-txt
+{
+    font-size: 14,5px;
+    color: firebrick;
+    text-align: left;
+    margin: -5px 0 10px;
+    display: none;
+}
+.field.error .error-txt
+{
+    display: block;
+}
+form .textarea-field .item 
+{
+    resize: none;
+} 
+form .textarea-field .error-txt
+{
+    margin-top: -10px;
+}
+form button 
+{
+    padding: 12px 32px;
+    background:rgb(110, 235, 215); 
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px ;
+    font-size: 16px rgb(20, 43, 218);
+    color:  rgb(35, 90, 138);
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: .5s;
+} 
+form button:hover
+{
+    box-shadow: none;
+}  
+
+
+
+
+

@@ -1,0 +1,41 @@
+
+/*API- ilgi alanlarım sayfası*/ 
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&subset=greek,cyrillic");
+
+body
+{
+    background-color: black;
+}
+.filmler 
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.filmler li 
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    background: #272727;
+}
+.filmler li img 
+{
+    max-width: 300px;
+    border-radius: 12px;
+}
+.filmler li h2
+{
+    color: #fff;
+    font-size: 1.8em;
+    padding: 15px 10px 0;
+    margin-top: auto;
+    font-family: "Oswald", sans-serif;
+}
